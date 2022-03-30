@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+change	interact_2.c	/^void	change(float ***coords, float dx, float dy, int size)$/;"	f
+char_tab	file_2_cloud.c	/^char	***char_tab(char *argv1, t_map *map)$/;"	f
+check_tab	file_2_cloud.c	/^static int	check_tab(char ***char_tab)$/;"	f	file:
+deg_2_rad	set_r_mat.c	/^static float	deg_2_rad(float deg)$/;"	f	file:
+display	display.c	/^void	display(t_data *data)$/;"	f
+display_error	file_2_cloud_2.c	/^void	display_error(char *str)$/;"	f
+draw_line	utils_display.c	/^void	draw_line(t_data *data, float **coords, int i)$/;"	f
+draw_line_bis	utils_display.c	/^void	draw_line_bis(t_data *data, float **coords, int i, char hv)$/;"	f
+draw_menu	draw_menu.c	/^void	draw_menu(t_data *data)$/;"	f
+draw_pt	utils_display.c	/^void	draw_pt(t_data *data, float x, float y, float z)$/;"	f
+file_2_cloud	file_2_cloud_2.c	/^float	**file_2_cloud(char *argv1, t_map *map)$/;"	f
+float_tab	file_2_cloud.c	/^float	**float_tab(char ***char_tab, t_map *map)$/;"	f
+free_2_reinit_map	interact.c	/^void	free_2_reinit_map(t_map *map)$/;"	f
+free_data	utils_init.c	/^void	free_data(t_data *data)$/;"	f
+free_int_point	interact_2.c	/^void	free_int_point(float **p_int)$/;"	f
+free_map	init_free.c	/^void	free_map(t_map *map)$/;"	f
+free_mlx	init_free.c	/^void	free_mlx(t_mlx *mlx)$/;"	f
+free_split	free.c	/^void	free_split(char **tab)$/;"	f
+free_uncompleted_tab	file_2_cloud_2.c	/^void	*free_uncompleted_tab(float **atof, float ***tab, int i)$/;"	f
+ft_a_b_line	utils_draw_line_3.c	/^float	*ft_a_b_line(float *p1, float *p2)$/;"	f
+ft_advanced_atof	atof.c	/^float	*ft_advanced_atof(char *str)$/;"	f
+ft_bzero	utils_display.c	/^void	ft_bzero(UINT **addr, int bytes)$/;"	f
+ft_char_count	open_store.c	/^static int	ft_char_count(char *str)$/;"	f	file:
+ft_char_in_charset	split.c	/^static int	ft_char_in_charset(char *str, char c)$/;"	f	file:
+ft_check_lines	utils_parsing.c	/^int	ft_check_lines(char ***d_tab, int i, int j)$/;"	f
+ft_close	interact.c	/^int	ft_close(t_data *data)$/;"	f
+ft_count_elem	utils_parsing.c	/^int	ft_count_elem(char **tab)$/;"	f
+ft_fill_tab	file_2_cloud.c	/^static void	ft_fill_tab(float **from, float **to, int x, int y)$/;"	f	file:
+ft_float_tab	utils_parsing.c	/^float	**ft_float_tab(char ***d_tab, int n_lines, int n_elem)$/;"	f
+ft_free_triple	free.c	/^void	ft_free_triple(char ***tab)$/;"	f
+ft_get_x	utils_draw_line_3.c	/^float	ft_get_x(float *params, float y)$/;"	f
+ft_get_y	utils_draw_line_3.c	/^float	ft_get_y(float *params, float x)$/;"	f
+ft_handle_sign	atof.c	/^static void	ft_handle_sign(char *str, int *i, int *sign)$/;"	f	file:
+ft_is_digit	atof.c	/^int	ft_is_digit(char *str)$/;"	f
+ft_line_same_x	utils_draw_line.c	/^void	ft_line_same_x(t_data *data, float *p1, float *p2)$/;"	f
+ft_line_same_y	utils_draw_line.c	/^void	ft_line_same_y(t_data *data, float *p1, float *p2)$/;"	f
+ft_line_tn	utils_draw_line_4.c	/^void	ft_line_tn(t_data *data, float *p1, float *p2, float tan)$/;"	f
+ft_line_tp	utils_draw_line_4.c	/^void	ft_line_tp(t_data *data, float *p1, float *p2, float tan)$/;"	f
+ft_max	utils_init.c	/^float	ft_max(float **tab, int i, int j, int xyz)$/;"	f
+ft_min	utils_init.c	/^float	ft_min(float **tab, int i, int j, int xyz)$/;"	f
+ft_move	interact.c	/^void	ft_move(int key, t_data *data)$/;"	f
+ft_open_store	open_store.c	/^char	*ft_open_store(char *str)$/;"	f
+ft_rotate	interact_2.c	/^void	ft_rotate(int key, t_data *data)$/;"	f
+ft_round	mat_calc.c	/^int	ft_round(float to_round)$/;"	f
+ft_scale	utils_init.c	/^void	ft_scale(t_map *map, float l, float h)$/;"	f
+ft_smallest	utils_draw_line_2.c	/^int	ft_smallest(float v1, float v2)$/;"	f
+ft_split	split.c	/^char	**ft_split(char *str, char *charset)$/;"	f
+ft_strncpy	split.c	/^static char	*ft_strncpy(char *dest, char *src, unsigned int n)$/;"	f	file:
+ft_tan	utils_draw_line.c	/^float	ft_tan(float *p1, float *p2)$/;"	f
+ft_translate	utils_init.c	/^void	ft_translate(t_map *map, float tx, float ty)$/;"	f
+ft_ultimate_split	utils_parsing.c	/^char	***ft_ultimate_split(char **tab)$/;"	f
+ft_word_count	split.c	/^static int	ft_word_count(char *str, char *charset)$/;"	f	file:
+ft_zoom	interact.c	/^void	ft_zoom(int key, t_data *data)$/;"	f
+get_color	get_color.c	/^UINT	get_color(t_map *map, float z)$/;"	f
+get_grad	get_color.c	/^static float	get_grad(float z, int min, int max)$/;"	f	file:
+get_line_size	utils_draw_line_5.c	/^float	get_line_size(float *p1, float *p2, char ij)$/;"	f
+in_canevas	utils_display.c	/^static int	in_canevas(int x, int y)$/;"	f	file:
+init_data	init_free.c	/^void	init_data(t_data *data, t_map *map, char *argv1, t_mlx *mlx)$/;"	f
+init_line_1	utils_display_2.c	/^void	init_line_1(t_line *line, t_map *map, float **coords, int i)$/;"	f
+init_line_2	utils_display_2.c	/^void	init_line_2(t_line *line, t_map *map, float **coords, int i)$/;"	f
+init_map	init_free.c	/^void	init_map(t_proj *proj, t_map *map, char *argv1)$/;"	f
+init_mlx	init_free.c	/^void	init_mlx(t_mlx *mlx)$/;"	f
+init_proj	init_free_2.c	/^void	init_proj(t_proj *proj, t_map *map)$/;"	f
+init_srt	init_free_2.c	/^void	init_srt(t_map *map)$/;"	f
+key_hook	interact_2.c	/^int	key_hook(int key, t_data *data)$/;"	f
+main	main.c	/^int	main(int argc, char **argv)$/;"	f
+mat_2_cloud	file_2_cloud.c	/^float	**mat_2_cloud(float **mat, t_map *map)$/;"	f
+mat_x_arr	mat_calc.c	/^float	**mat_x_arr(float *mat, float **coords, t_map *map)$/;"	f
+mat_x_vec	mat_calc.c	/^static void	mat_x_vec(float *t_coords, float *matrix, float *coords)$/;"	f	file:
+proj_array	mat_calc_2.c	/^float	**proj_array(t_map *map)$/;"	f
+proj_array_ba	mat_calc_2.c	/^float	**proj_array_ba(t_map *map)$/;"	f
+reinitialize_map	interact.c	/^void	reinitialize_map(t_map *map, int centralize)$/;"	f
+reset	interact_2.c	/^void	reset(t_data *data)$/;"	f
+rgb_2_hx	get_color.c	/^static UINT	rgb_2_hx(t_color *color)$/;"	f	file:
+round_arr	mat_calc.c	/^void	round_arr(t_map *map, float **coords)$/;"	f
+set_gm	set_stp_mats.c	/^void	set_gm(float *gm, t_map *map)$/;"	f
+set_pm	set_p_mat.c	/^void	set_pm(float *pm, t_proj *proj)$/;"	f
+set_pm_ba	set_p_mat.c	/^void	set_pm_ba(float *pm_ba)$/;"	f
+set_rm	set_r_mat.c	/^void	set_rm(float *rm, t_map *map)$/;"	f
+set_rx	set_r_mat.c	/^void	set_rx(float *mrx, t_map *map)$/;"	f
+set_ry	set_r_mat.c	/^void	set_ry(float *mry, t_map *map)$/;"	f
+set_rz	set_r_mat.c	/^void	set_rz(float *mrz, t_map *map)$/;"	f
+set_sm	set_stp_mats.c	/^void	set_sm(float *sm, t_map *map)$/;"	f
+set_tm	set_stp_mats.c	/^void	set_tm(float *tm, t_map *map)$/;"	f
+tab_1	utils_draw_line.c	/^void	tab_1(t_data *data, float *p1, float *p2, char ij)$/;"	f
+tab_v1	utils_draw_line_2.c	/^void	tab_v1(t_data *data, float *p1, float *p2)$/;"	f
+tab_v2	utils_draw_line_2.c	/^void	tab_v2(t_data *data, float *p1, float *p2)$/;"	f
+tab_v3	utils_draw_line_2.c	/^void	tab_v3(t_data *data, float *p1, float *p2)$/;"	f
+tab_v4	utils_draw_line_4.c	/^void	tab_v4(t_data *data, float *p1, float *p2)$/;"	f
+tab_v5	utils_draw_line_4.c	/^void	tab_v5(t_data *data, float *p1, float *p2)$/;"	f
+tab_v6	utils_draw_line_4.c	/^void	tab_v6(t_data *data, float *p1, float *p2)$/;"	f
+trans_array	mat_calc_2.c	/^float	**trans_array(t_map *map)$/;"	f
+x_2_mat	mat_calc.c	/^void	x_2_mat(float *res, float *mat_1, float *mat_2)$/;"	f
+z_2_col	get_color.c	/^static t_color	*z_2_col(float z_per)$/;"	f	file:
