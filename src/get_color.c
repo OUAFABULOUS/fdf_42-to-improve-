@@ -6,7 +6,7 @@
 /*   By: omoudni <omoudni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/23 18:36:29 by omoudni           #+#    #+#             */
-/*   Updated: 2022/02/23 21:03:42 by omoudni          ###   ########.fr       */
+/*   Updated: 2022/03/30 21:35:07 by omoudni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ static float	get_grad(float z, int min, int max)
 	float	spectrum;
 	float	z_per;
 
+	if (min == max)
+		return((float)min);
 	spectrum = max - min;
 	z_per = (z - min) / spectrum;
 	return (z_per);
